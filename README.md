@@ -26,7 +26,9 @@ Before getting started, ensure you have the following prerequisites installed:
     ```bash
     git clone https://github.com/Sainty717/Labs_Lab.git
     ```
-
+    ```bash
+     cd Labs_Lab/
+    ```
 2. **Customize Configuration:** Optionally, modify the Bash script to adjust parameters such as the number of replicas and password.
 
 3. **Run the Script:** Execute the Bash script to set up the Docker environment and launch the Jupyter Notebook instances.
