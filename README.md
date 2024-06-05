@@ -10,6 +10,7 @@ Before getting started, ensure you have the following prerequisites installed:
 
 - Docker: [Install Docker](https://docs.docker.com/get-docker/)
 - Docker Compose: [Install Docker Compose](https://docs.docker.com/compose/install/)
+- Docker Permissions: [Linux post-installation steps for Docker Engine](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ## Key Features
 
@@ -30,7 +31,10 @@ Before getting started, ensure you have the following prerequisites installed:
 
 3. **Run the Script:** Execute the Bash script to set up the Docker environment and launch the Jupyter Notebook instances.
     ```bash
-    ./setup.sh -r <number_of_replicas> -p <jupyter_password>
+    chmod +x ./lablabs.sh
+    ```
+    ```bash
+    ./lablabs.sh -r <number_of_replicas> -p <jupyter_password>
     ```
 
 4. **Access Jupyter Notebook:** Once the containers are running, access the Jupyter Notebook instances via the specified port in your web browser.
