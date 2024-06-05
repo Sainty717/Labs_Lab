@@ -1,0 +1,13 @@
+cython
+numpy
+pandas
+matplotlib
+#netCDF4
+folium
+lxml
+nltk
+streamlit
+matplotlib
+setuptools
+wheel
+cmake
