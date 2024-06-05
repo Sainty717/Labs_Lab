@@ -33,7 +33,7 @@ Before getting started, ensure you have the following prerequisites installed:
 
 3. **Run the Script:** Execute the Bash script to set up the Docker environment and launch the Jupyter Notebook instances.
     ```bash
-    chmod +x ./lablabs.sh
+    chmod +x ./labslab.sh
     ```
     ```bash
     ./lablabs.sh -r <number_of_replicas> -p <jupyter_password>
