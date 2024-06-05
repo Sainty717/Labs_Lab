@@ -24,7 +24,7 @@ Before getting started, ensure you have the following prerequisites installed:
 
 1. **Clone the Repository:** Clone this repository to your local machine.
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
+    git clone https://github.com/Sainty717/Labs_Lab.git
     ```
 
 2. **Customize Configuration:** Optionally, modify the Bash script to adjust parameters such as the number of replicas and password.
