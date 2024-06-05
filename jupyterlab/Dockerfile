@@ -35,7 +35,6 @@ RUN apt-get update
 RUN apt-get install -y libcurl4-openssl-dev libssl-dev
 RUN apt-get install -y --allow-unauthenticated r-base
 COPY requirements.txt requirements.txt
-COPY .profile /root/.profile
 # Install Folium and Plotly
 RUN apt-get -y install pandoc
 RUN pip3 install folium plotly pandas matplotlib bokeh numpy scipy shapely cmake --break-system-packages
