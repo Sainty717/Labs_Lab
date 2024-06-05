@@ -29,6 +29,7 @@ Before getting started, ensure you have the following prerequisites installed:
     ```bash
     cd Labs_Lab/
     ```
+
 2. **Customize Configuration:** Optionally, modify the Bash script to adjust parameters such as the number of replicas and password.
 
 3. **Run the Script:** Execute the Bash script to set up the Docker environment and launch the Jupyter Notebook instances.
@@ -41,7 +42,9 @@ Before getting started, ensure you have the following prerequisites installed:
 
 4. **Access Jupyter Notebook:** Once the containers are running, access the Jupyter Notebook instances via the specified port in your web browser.
 
-5. **Develop Web Applications:** Utilize the additional exposed port to develop, test, and deploy web applications alongside your Jupyter Notebook environment.
+5. **Review Pod and Port Information:** The script generates a `report.log` file where details of each pod and its associated ports are listed.
+
+6. **Develop Web Applications:** Utilize the additional exposed port to develop, test, and deploy web applications alongside your Jupyter Notebook environment.
 
 ## Contributors
 
