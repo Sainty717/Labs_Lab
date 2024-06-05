@@ -43,6 +43,14 @@ Before getting started, ensure you have the following prerequisites installed:
 4. **Access Jupyter Notebook:** Once the containers are running, access the Jupyter Notebook instances via the specified port in your web browser.
 
 5. **Review Pod and Port Information:** The script generates a `report.log` file where details of each pod and its associated ports are listed.
+example:
+```
+jupyter_1: Base Port: 8001, Additional Port: 9001
+jupyter_2: Base Port: 8002, Additional Port: 9002
+jupyter_3: Base Port: 8003, Additional Port: 9003
+jupyter_4: Base Port: 8004, Additional Port: 9004
+jupyter_5: Base Port: 8005, Additional Port: 9005
+jupyter_6: Base Port: 8006, Additional Port: 9006 ```
 
 6. **Develop Web Applications:** Utilize the additional exposed port to develop, test, and deploy web applications alongside your Jupyter Notebook environment.
 
