@@ -27,7 +27,7 @@ Before getting started, ensure you have the following prerequisites installed:
     git clone https://github.com/Sainty717/Labs_Lab.git
     ```
     ```bash
-     cd Labs_Lab/
+    cd Labs_Lab/
     ```
 2. **Customize Configuration:** Optionally, modify the Bash script to adjust parameters such as the number of replicas and password.
 
