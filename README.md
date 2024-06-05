@@ -36,7 +36,7 @@ Before getting started, ensure you have the following prerequisites installed:
     chmod +x ./labslab.sh
     ```
     ```bash
-    ./lablabs.sh -r <number_of_replicas> -p <jupyter_password>
+    ./labslab.sh -r <number_of_replicas> -p <jupyter_password>
     ```
 
 4. **Access Jupyter Notebook:** Once the containers are running, access the Jupyter Notebook instances via the specified port in your web browser.
